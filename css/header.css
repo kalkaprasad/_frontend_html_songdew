@@ -1,0 +1,37 @@
+.sidebarbackIcon {
+    padding: 10px;
+    border: 1px solid #A8ABBB;
+    box-sizing: border-box;
+    border-radius: 100px;
+
+}
+
+.headerlefticon {
+    float: right;
+    margin-left: 5px;
+}
+
+.headericon {
+    border: solid #F9F9F9;
+    cursor: pointer;
+}
+
+.songsText {
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 15px;
+    font-size: 30px;
+    line-height: 45px;
+    color: #222222;
+
+}
+
+.home1 {
+    margin-top: 5px;
+}
+.header-mobile-mobile{
+    /* margin-top: 10px;
+    background-color: aqua; */
+}
