@@ -3,12 +3,13 @@
 .tabbaroption {
     font-family: Poppins;
     background-color: #F9F9F9;
-    margin-left: 10px;
+    margin-left: 48px;
     font-family: Poppins;
     font-style: normal;
     border: solid #F9F9F9;
     font-size: 14px;
     cursor: pointer;
+    margin-top: 118px;
     font-weight: 400px;
 
 }

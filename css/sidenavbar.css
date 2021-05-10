@@ -21,12 +21,19 @@ body {
 }
 
 .wrapper .sidebar {
-  width: 296px;
+  /* width: 296px;
   height: 100%;
   padding: 30px 0px;
   position: fixed;
   background: #F9F9F9;
-  border: 1px solid #d6d4d4;
+  border: 1px solid #d6d4d4; */
+  position: absolute;
+width: 296px;
+height: 3011px;
+left: 0px;
+top: 0px;
+background: #F9F9F9;
+border: 1px solid #d6d4d4;
 }
 
 /* mobile view  */
@@ -92,9 +99,21 @@ body {
 
 .wrapper .sidebar ul li {
   padding: 15px;
+  margin-top: 52px;
   /* border-bottom: 1px solid #bdb8d7;
   border-bottom: 1px solid rgba(0,0,0,0.05);
   border-top: 1px solid rgba(255,255,255,0.05); */
+
+  
+}
+.wrapper .sidebar ul li {
+  padding: 15px;
+  margin-top: 17px;
+  /* border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05); */
+
+  
 }
 
 .wrapper .sidebar ul li a {
@@ -141,13 +160,22 @@ body {
 }
 
 .wrapper .main_content {
-  width: 100%;
+  /* width: 1144px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
+  height: 3011px;
   line-height: 18px;
-  margin-left: 300px;
+  margin-left: 296px; */
+
+  
+position: absolute;
+width: 1144px;
+height: 3011px;
+left: 296px;
+top: 0px;
+background: #F9F9F9
 }
 
 .wrapper .main_content .header {

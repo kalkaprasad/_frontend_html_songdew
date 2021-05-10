@@ -8,7 +8,8 @@
 
 .headerlefticon {
     float: right;
-    margin-left: 5px;
+    margin-top: 20pxpx;
+    
 }
 
 .headericon {
@@ -18,13 +19,26 @@
 
 .songsText {
 
-    font-family: Poppins;
+    /* font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     margin-left: 15px;
     font-size: 30px;
     line-height: 45px;
-    color: #222222;
+    color: #222222; */
+    position: absolute;
+width: 336px;
+height: 71px;
+left: 47px;
+top: 111px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+
+color: #222222;
 
 }
 
