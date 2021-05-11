@@ -7,7 +7,7 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  
+
 }
 
 body {
@@ -21,67 +21,100 @@ body {
 }
 
 .wrapper .sidebar {
-  /* width: 296px;
-  height: 100%;
-  padding: 30px 0px;
-  position: fixed;
+
+  position: relative;
+  width: 296px;
+  left: 0px;
+  top: 0px;
   background: #F9F9F9;
-  border: 1px solid #d6d4d4; */
-  position: absolute;
-width: 296px;
-height: 3011px;
-left: 0px;
-top: 0px;
-background: #F9F9F9;
-border: 1px solid #d6d4d4;
+  border: 1px solid #d6d4d4;
 }
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+  .header-mobile-mobile {
+    display: none;
+    visibility: hidden;
+
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .header-mobile-mobile {
+    display: none;
+    visibility: hidden;
+
+  }
+
+}
+
 
 /* mobile view  */
 @media only screen and (max-width: 600px) {
-  .wrapper {
+  .wrapper .sidebar {
     position: absolute;
-    left: -300px;
-  }
-
-  .main_content{
-    position: absolute;
-width: 375px;
-height: 60px;
-left: 0px;
-top: 0px;
-background: #F9F9F9;
-  }
+    transform: translateX(-100%);
   
-  .playlist-song{
-    margin-top: 80px;
-  }
-  .recomended-foryou{
-    margin-top: 80px;
-  }
-  .headerlefticon{
-    visibility: hidden;
-    display: none;
-  }
-  .recently-play{
-    margin-top: 80px;
+    z-index: 99;
+    height: 100%;
   }
   .recent-play-ads{
-    margin-top: 50px;
+    margin-left: -30px !important;
   }
-  .headerlefticon{
+  .nav{
+    display: flex !important;
+    justify-content: space-between;
+  }
+  .wrapper .sidebar.active{
+    transform: translateX(0px);
+    transition: 0.6s ease-in-out;
+  }
+
+  .main_content {
+    width: 100%;
+    background: #F9F9F9;
+  }
+
+  .playlist-song {
+    margin-top: 40px;
+  }
+
+  .recomended-foryou {
+    margin-top: 40px;
+  }
+
+  .headerlefticon {
     visibility: hidden;
     display: none;
   }
-  .headericon{
+
+  .recently-play {
+    margin-top: 40px;
+  }
+
+  .recent-play-ads {
+    margin-top: 40px;
+  }
+
+  .headerlefticon {
     visibility: hidden;
     display: none;
   }
- 
+
+  .headericon {
+    visibility: hidden;
+    display: none;
+  }
+
 }
 
-@media only screen and (min-width: 1281px){
-  
-  .header-mobile-mobile{
+@media only screen and (min-width: 1281px) {
+
+  .header-mobile-mobile {
     display: none;
     visibility: hidden;
 
@@ -89,14 +122,14 @@ background: #F9F9F9;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+
   /* CSS */
-  .header-mobile-mobile{
+  .header-mobile-mobile {
     display: none;
     visibility: hidden;
 
   }
-  
+
 }
 
 
@@ -114,8 +147,9 @@ background: #F9F9F9;
   border-bottom: 1px solid rgba(0,0,0,0.05);
   border-top: 1px solid rgba(255,255,255,0.05); */
 
-  
+
 }
+
 .wrapper .sidebar ul li {
   padding: 15px;
   margin-top: 17px;
@@ -123,7 +157,7 @@ background: #F9F9F9;
   border-bottom: 1px solid rgba(0,0,0,0.05);
   border-top: 1px solid rgba(255,255,255,0.05); */
 
-  
+
 }
 
 .wrapper .sidebar ul li a {
@@ -179,13 +213,10 @@ background: #F9F9F9;
   line-height: 18px;
   margin-left: 296px; */
 
-  
-position: absolute;
-width: 1144px;
-height: 3011px;
-left: 296px;
-top: 0px;
-background: #F9F9F9
+  width: 100%;
+  left: 296px;
+  top: 0px;
+  background: #F9F9F9
 }
 
 .wrapper .main_content .header {
@@ -197,11 +228,11 @@ background: #F9F9F9
 }
 
 .wrapper .main_content .info {
-margin-left: 47px;
+  margin-left: 47px;
   color: #717171;
   line-height: 25px;
 }
 
 .wrapper .main_content .info div {
-  margin-bottom: 20px;
+  margin-bottom: 33px;
 }

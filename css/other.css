@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
-    
+
     box-sizing: border-box;
 }
 
@@ -33,8 +33,7 @@ top: 4.25%; */
     border: 1px solid #A8ABBB;
     box-sizing: border-box;
     border-radius: 100px
-
-    /* position: absolute;
+        /* position: absolute;
     left: 15.2%;
     right: 69.93%;
     top: 4.25%;
@@ -62,74 +61,36 @@ top: 4.25%; */
 
     background: #EFF1F6;
     padding: 10px;
-    font-family:popline ;
+    font-family: popline;
     border: 1px solid #E0E3EB;
     box-sizing: border-box;
     border-radius: 100px;
 }
 
 .lang-btn {
-    display: inline;
-    float: left; 
-  background: #FFFFFF;
+    background: #FFFFFF;
     border: 1px solid #FFFFFF;
     width: fit-content;
     border-radius: 100px;
     cursor: pointer;
     padding: 10px 15px;
-
-    /* position: absolute;
-width: 44px;
-height: 18px;
-left: 11px;
-top: 5px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 18px; */
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #222222;
+    align-items: center;
+    color: #222222;
 }
 
-/* .lang-btn1 {
-    position: relative;
-    width: 100%;
-    /* display: flex; */
-    /* overflow-x: scroll;
-} */ 
-/* .lang-btn1::-webkit-scrollbar {
-    height: 1px;
-    width: 100px;
-    
-}
-
-.lang-btn1::-webkit-scrollbar-track {
-    background: #F9F9F9;
-}
-
-.lang-btn1::-webkit-scrollbar-thumb {
-    background: #F9F9F9;
-    border-radius: 10px;
-} */
 
 .new-releses {
 
 
-width: fit-content;
-margin-top: 53px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-/* identical to box height */
+    width: fit-content;
+    margin-top: 53px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* identical to box height */
 
-color: #222222;
+    color: #222222;
 }
 
 .new-relese-track {
@@ -139,24 +100,23 @@ color: #222222;
     font-weight: 300;
     font-size: 16px;
     line-height: 170%; */
-position:absolute;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 9px;
-margin-top: 10px;
-line-height: 13px;
-/* identical to box height */
-text-align: center;
-letter-spacing: 0.3px;
-text-transform: uppercase;
+    position: absolute;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    margin-top: 10px;
+    line-height: 13px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
 
-color: #989AA3;
+    color: #989AA3;
     /* or 27px */
 }
 
 .view-all {
-
 
     font-family: Poppins;
     font-style: normal;
@@ -171,12 +131,12 @@ color: #989AA3;
 }
 
 .song-list-newrelease {
-    width: 158px;
-    height: 158px;
+    width: 148px;
+    /* height: 148px; */
     float: left;
     margin-right: 64px;
     margin-top: 40px;
-    border: 1px solid #E0E3EB;
+    /* border: 1px solid #E0E3EB; */
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -192,21 +152,22 @@ color: #989AA3;
     content: "";
     margin-top: 30px;
     display: table;
-    
+
 }
 
 .playlist-song {
     width: 315px;
-    height: 190px;
+ 
     float: left;
     margin-right: 25px;
     border-radius: 10px;
 
 }
 
-.recommned-by-main-div {
+.recommned-main-div {
     content: "";
     display: table;
+    margin-top: 40px;
     clear: both;
 
 }
@@ -229,7 +190,7 @@ color: #989AA3;
 }
 
 .playlists-main-div {
-    margin-top: 104px;
+    margin-top: 33px;
 
 }
 
@@ -246,7 +207,7 @@ color: #989AA3;
 .recomended-forcard {
 
     content: "";
-    margin-top: 10px;
+    margin-top: 40px;
     display: table;
     clear: both;
 
@@ -256,12 +217,12 @@ color: #989AA3;
 .recomended-foryou {
 
     width: 158px;
-    height: 158px;
+    /* height: 158px; */
     left: 48px;
     float: left;
     margin-left: 25px;
     top: 1292px;
-    border: 1px solid #E0E3EB;
+    /* border: 1px solid #E0E3EB; */
     box-sizing: border-box;
     border-radius: 10px;
 
@@ -269,7 +230,7 @@ color: #989AA3;
 
 .recenly-played-card {
     content: "";
-    margin-top: 10px;
+    margin-top: 40px;
     display: table;
     clear: both;
 
@@ -277,11 +238,11 @@ color: #989AA3;
 
 .recently-play {
     width: 158px;
-    height: 158px;
+    /* height: 158px; */
     left: 48px;
     margin-left: 20px;
     float: left;
-    border: 1px solid #E0E3EB;
+    /* border: 1px solid #E0E3EB; */
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -305,6 +266,12 @@ color: #989AA3;
     margin-left: 5px;
     line-height: 96px;
     color: #222222;
+
+}
+
+.recently-played-song {
+    margin-top: 33px;
+
 
 }
 
@@ -465,85 +432,110 @@ color: #989AA3;
 
     color: #989AA3;
 }
-.headerleftonmobile-view{
+
+.headerleftonmobile-view {
     width: 100%;
     display: inline;
     display: table;
     clear: both;
 }
-.headerlefticon-mobile-view{
+
+.headerlefticon-mobile-view {
     width: 100%;
     /* background-color: #3D67FF; */
 }
-.headericon1{
+
+.headericon1 {
     float: right;
-margin-right: 8px;
+    margin-right: 8px;
 }
 
-.textdesign{
+.textdesign {
     text-align: center;
-    margin-bottom: 30px;
+
 
 }
-.homepage{
-margin-top: 20px;
+
+.homepage {
+    margin-top: 20px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 16px;
     /* identical to box height */
-    
-    
+
+
     color: #989AA3;
-    
+
 
 }
-.album{
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 15px;
-/* identical to box height */
-text-align: center;
-letter-spacing: 0.3px;
-text-transform: uppercase;
+.album {
 
-color: #989AA3;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+
+    color: #989AA3;
 }
-.songname{
-    position: absolute;
-width: 158px;
-height: 26px;
-font-family: Poppins;
-font-style: normal;
-text-align: center;
-display: block;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-/* or 22px */
 
-text-align: center;
+.songname {
+    /* position: absolute; */
+    /* width: 158px; */
+    height: 26px;
+    font-family: Poppins;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
 
-color: #222222;
+    text-align: center;
+
+    color: #222222;
 }
-.singername{
-    width: 158px;
-height: 26px;
-position: absolute;
-margin-top: 26px;
-display: block;
-margin-bottom: 23px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 170%;
-/* or 20px */
-text-align: center;
-color: rgba(34, 34, 34, 0.8);
 
+.singername {
+    /* width: 158px; */
+    height: 26px;
+    /* position: absolute; */
+    margin-top: 26px;
+    display: block;
+    margin-bottom: 23px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    /* or 20px */
+    /* text-align: center; */
+    color: rgba(34, 34, 34, 0.8);
+
+}
+
+.category-heading {
+    display: inline;
+}
+
+.link {
+    float: right;
+}
+
+.nav {
+    position: relative;
+    display: none;
+}
+
+.nav div a i {
+    padding: 6px;
+    color: #555;
 }
