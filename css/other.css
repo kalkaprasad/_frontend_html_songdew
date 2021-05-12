@@ -83,7 +83,7 @@ top: 4.25%; */
 
 
     width: fit-content;
-    margin-top: 53px;
+    margin-top: 58px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -457,7 +457,7 @@ top: 4.25%; */
 }
 
 .homepage {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -508,7 +508,7 @@ top: 4.25%; */
     /* width: 158px; */
     height: 26px;
     /* position: absolute; */
-    margin-top: 26px;
+    /* margin-top: 26px; */
     display: block;
     margin-bottom: 23px;
     font-family: Poppins;
