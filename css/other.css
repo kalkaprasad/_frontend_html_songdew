@@ -130,12 +130,32 @@ top: 4.25%; */
     color: #3D67FF;
 }
 
+.imagedesign{
+    border: 1px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.Playlists{
+/* width: 161px; */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #222222;
+}
+
 .song-list-newrelease {
     width: 148px;
     /* height: 148px; */
     float: left;
     margin-right: 64px;
-    margin-top: 40px;
+    margin-top: 35px;
     /* border: 1px solid #E0E3EB; */
     box-sizing: border-box;
     border-radius: 10px;
@@ -318,11 +338,11 @@ top: 4.25%; */
     font-size: 16px;
     line-height: 170%; */
     /* or 27px */
-    position: absolute;
+    /* position: absolute; */
     width: 173px;
     height: 33px;
-    left: 46px;
-    top: 2899px;
+    /* left: 46px; */
+    margin-top: 1699px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -538,4 +558,10 @@ top: 4.25%; */
 .nav div a i {
     padding: 6px;
     color: #555;
+}
+.hrline{
+    
+border: 1px solid #E0E3EB;
+margin-left: 48px;
+
 }
