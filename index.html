@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/sidenavbar.css">
     <link rel="stylesheet" href="css/other.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/dashboard.css">
     <link rel="stylesheet" href="css/tabbar.css">
+    <link rel="stylesheet" href="css/dropdown.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <link rel="stylesheet"
@@ -18,7 +18,6 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"> -->
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
-
 <body style="background:#F9F9F9;">
     <!-- This is the wrapper class -->
     <div class="container-fluid">
@@ -40,19 +39,22 @@
                         <img src="icon/Vectorback.png" class="arrowicons">
                     </center>
                 </div>
+                <div class="head-left-menu"> 
+                    <img src="icon/Vector.png" style="margin-left: 20px;"/><a href="#" style="color: black;margin-left: 20px;"> Discover <i class="fa fa-caret-down" style="margin-left: 100px;"></i> </a>
+                </div>
+               
                 <ul>
                     <!-- <li> <img src="icon/Vector.png" class="leftmenurect"> </li>  -->
-                    <li><a href="#" style="color: black;margin-left: 5px;"><img src="icon/Vector.png">
-                            Discover <i class="fa fa-caret-down" style="margin-left: 100px;"></i> </a></li>
+                   
                     <center>
                         <!-- side bar list item  -->
-                        <li><a href="#">Oppurtunity </a></li>
+                        <li><a href="#">Opportunities </a></li>
                         <li><a href="#">Songs </a></li>
-                        <li><a href="#">Video </a></li>
-                        <li><a href="#">Songsdew TV </a></li>
+                        <li><a href="#">Videos </a></li>
+                        <li><a href="#">Songdew TV </a></li>
                         <li><a href="#">Playlists </a></li>
                         <li><a href="#">Artists </a></li>
-                        <li><a href="#">Blog </a></li>
+                        <li><a href="#">Blogs</a></li>
                         <li><a href="#">Upload </a></li>
                     </center>
                     <center>
@@ -114,24 +116,50 @@
                     <button class="tabbaroption" style="color:#989AA3;"> POPULAR</button>
                     <button class="tabbaroption" style="color:#989AA3;"> TRENDING </button>
                     <button class="tabbaroption" style="color:#989AA3;"> LETEST </button>
-                    <button class="tabbaroption" style="color:#989AA3;">
-                        <!-- <div class="dropdown">
-                            <span>Genral</span>
-                            <div class="dropdown-content">
-                                <p class="genral-dropdown-hover">POP</p>
-                                <p class="genral-dropdown-hover">Rock</p>
-                                <p class="genral-dropdown-hover">Alternative</p>
-                                <p class="genral-dropdown-hover">Acoustic</p>
-                                <p class="genral-dropdown-hover">Blues & RNB</p>
-                            </div>
-                        </div> -->
-                        Genral
+                    <button class="tabbaroption"style="color:#989AA3;margin-left: 450px;"onclick="myFunction()" id="dropbtn">
+                        GENRE
+                        <div id="myDropdown" class="dropdown-content">
+                            <i class="fas fa-caret-up" style="float: right;"></i>
+                          <a href="#home">Home</a>
+                          <a href="#about">About</a>
+                          <a href="#contact">Contact</a>
+                          <a href="#about">About</a>
+                          <a href="#contact">Contact</a>
+                          <a href="#about">About</a>
+                          <a href="#contact">Contact</a>
+                        </div>
                     </button>
+                
 
                 </div>
 
                 <hr class="hrline">
                 </hr>
+
+                <!-- this is the for mobileview menu -->
+                <div class="mobileview-menu">
+                 <span class="menu1_text">Genre</span>
+                 <span class="genre2"onclick="myFunction()" id="dropbtn">
+                    POP <i class="fas fa-caret-down" style="margin-left: 16.5;"></i>
+                    <div id="myDropdown" class="dropdown-content">
+                        
+                      <a href="#home">Home</a>
+                      <a href="#about">About</a>
+                      <a href="#contact">Contact</a>
+                      <a href="#about">About</a>
+                      <a href="#contact">Contact</a>
+                      <a href="#about">About</a>
+                      <a href="#contact">Contact</a>
+                    </div>
+                </span>
+                <span class="popular-main-div">
+                   
+                    <span class="popular"> Popular <i class="fas fa-caret-down" style="margin-left:10.5px;"></i></span>
+                    <div class="vertical">  </div>
+                </span>
+                
+                </div>
+                <!-- end  mobileview -->
                 <!-- Languges category song -->
                 <div class="language-category-song" style="margin-left: 48px;">
                     <div class="lang-btn1 owl-carousel ">
@@ -446,6 +474,7 @@
         })
     </script>
     <script src="Js/slider.js"></script>
+    <script src="Js/dropdown.js"></script>
 
 </body>
 

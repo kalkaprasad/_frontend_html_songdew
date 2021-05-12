@@ -40,6 +40,10 @@ body {
     visibility: hidden;
 
   }
+  .mobileview-menu{
+    /* display: inline; */
+    display: none !important;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -49,6 +53,10 @@ body {
     visibility: hidden;
 
   }
+  .mobileview-menu{
+    /* display: inline; */
+    display: none !important;
+}
 
 }
 
@@ -58,9 +66,28 @@ body {
   .wrapper .sidebar {
     position: absolute;
     transform: translateX(-100%);
-  
     z-index: 99;
     height: 100%;
+    /* transition: 0.6s ease-in-out; */
+  }
+
+  .mobileview-menu{
+
+/* identical to box height */
+display: block;
+width: 39px;
+height: 18px;
+margin-left: 16px;
+display: inline;
+align-items: center;
+color: #989AA3
+
+  }
+  .hrline{
+    display: none;
+  }
+  .tabbarname{
+    display: none;
   }
   .recent-play-ads{
     margin-left: -30px !important;
@@ -119,6 +146,10 @@ body {
     visibility: hidden;
 
   }
+  .mobileview-menu{
+    /* display: inline; */
+    display: none !important;
+}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -129,6 +160,10 @@ body {
     visibility: hidden;
 
   }
+  .mobileview-menu{
+    /* display: inline; */
+    display: none !important;
+}
 
 }
 
