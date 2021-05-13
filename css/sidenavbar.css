@@ -36,8 +36,8 @@ body {
 @media only screen and (min-width : 1200px) {
 
   .header-mobile-mobile {
-    display: none;
-    visibility: hidden;
+    display: none !important;
+
 
   }
   .mobileview-menu{
@@ -53,6 +53,10 @@ body {
     visibility: hidden;
 
   }
+  .for_hr_line_view{
+    display: none !important;
+
+  }
   .mobileview-menu{
     /* display: inline; */
     display: none !important;
@@ -63,6 +67,10 @@ body {
 
 /* mobile view  */
 @media only screen and (max-width: 600px) {
+
+  .view-all{
+    display: none !important;
+  }
   .wrapper .sidebar {
     position: absolute;
     transform: translateX(-100%);
@@ -156,8 +164,7 @@ color: #989AA3
 
   /* CSS */
   .header-mobile-mobile {
-    display: none;
-    visibility: hidden;
+    display: none !important;
 
   }
   .mobileview-menu{
