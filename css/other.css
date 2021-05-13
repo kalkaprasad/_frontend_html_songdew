@@ -91,8 +91,6 @@ line-height: 18px;
 display: flex;
 align-items: center;
 }
-
-
 .new-releses {
 
 
@@ -168,7 +166,7 @@ color: #222222;
     width: 158px;
     /* height: 148px; */
     float: left;
-    margin-right: 64px;
+    margin-right: 53px;
     margin-top: 35px;
     /* border: 1px solid #E0E3EB; */
     box-sizing: border-box;
@@ -184,7 +182,7 @@ color: #222222;
 
 .Playlistcard-main-div {
     content: "";
-    margin-top: 30px;
+    margin-top: 35px;
     display: table;
 
 }
@@ -193,7 +191,7 @@ color: #222222;
     width: 315px;
  
     float: left;
-    margin-right: 25px;
+    margin-right: 50px;
     border-radius: 10px;
 
 }
@@ -370,7 +368,7 @@ color: #3D67FF;
     width: 173px;
     height: 33px;
     /* left: 46px; */
-    margin-top: 1699px;
+    margin-top: 2299px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -408,6 +406,7 @@ color: #3D67FF;
 }
 
 .dropdown-content {
+    position: absolute;
     scroll-behavior: smooth;
     display: none;
     background-color: #f9f9f9;
@@ -416,6 +415,7 @@ color: #3D67FF;
     padding: 12px 16px;
     z-index: 1;
 }
+
 
 .dropdown:hover .dropdown-content {
     width: 116px;
@@ -677,3 +677,9 @@ margin-right: 160px;
 
 
 }
+/* @media only screen and (max-width:600px)
+{
+    .song-list-newrelease{
+        margin-right: 32px;
+    }
+} */
