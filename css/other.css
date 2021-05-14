@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto&display=swap');
+/* @import url(dropdown.css); */
+
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+.logo {
+    position: absolute;
+    width: 149px;
+    height: 42px;
+    left: 45px;
+    top: 53px;
+    cursor: pointer;
+}
+
+.leftmenurect {
+    /* left: 20%;
+right: 69.93%;
+top: 4.25%; */
+    left: 15.2%;
+    right: 69.93%;
+    top: 4.25%;
+    bottom: 94.89%;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 45px;
+    margin-right: 207px;
+    margin-top: 128px;
+    height: 24px;
+    border: 1px solid #A8ABBB;
+    box-sizing: border-box;
+    border-radius: 100px
+        /* position: absolute;
+    left: 15.2%;
+    right: 69.93%;
+    top: 4.25%;
+    bottom: 94.89%;
+    
+    border: 1px solid #A8ABBB;
+    box-sizing: border-box;
+    border-radius: 100px */
+
+
+}
+
+.leftmenurect:hover {
+    color: black;
+}
+
+.language-category-song {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.btn-languages {
+
+    background: #EFF1F6;
+    padding: 10px;
+    font-family: popline;
+    border: 1px solid #E0E3EB;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.lang-btn {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: fit-content;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 5px 11px;
+    border: 1px solid #E0E3EB;
+box-sizing: border-box;
+border-radius: 100px;
+    align-items: center;
+    color: #222222;
+
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+}
+.new-releses {
+
+
+    width: fit-content;
+    margin-top: 58px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* identical to box height */
+
+    color: #222222;
+}
+
+.new-relese-track {
+
+    /* font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170%; */
+    position: absolute;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    margin-top: 10px;
+    line-height: 13px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+
+    color: #989AA3;
+    /* or 27px */
+}
+
+.view-all {
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    float: right;
+    display: flex;
+    align-items: center;
+    color: #3D67FF;
+}
+
+.imagedesign{
+    border: 1px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.Playlists{
+/* width: 161px; */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #222222;
+}
+
+.song-list-newrelease {
+    width: 158px;
+    /* height: 148px; */
+    float: left;
+    margin-right: 53px;
+    margin-top: 35px;
+    /* border: 1px solid #E0E3EB; */
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.song-list-newrelease-main-div {
+    content: "";
+    display: table;
+
+    text-align: center;
+}
+
+.Playlistcard-main-div {
+    content: "";
+    margin-top: 35px;
+    display: table;
+
+}
+
+.playlist-song {
+    width: 315px;
+ 
+    float: left;
+    margin-right: 50px;
+    border-radius: 10px;
+
+}
+
+.recommned-main-div {
+    content: "";
+    display: table;
+    margin-top: 40px;
+    clear: both;
+
+}
+
+.card-text {
+
+    margin-right: 10px;
+    float: right;
+    margin-top: 90px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.1986px;
+    line-height: 120%;
+    white-space: nowrap;
+    /* identical to box height, or 33px */
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.playlists-main-div {
+    margin-top: 33px;
+
+}
+
+.playlistcard-image-right {
+
+    width: 190px;
+    height: 189px;
+    margin-top: 1px;
+    float: left;
+
+}
+
+
+.recomended-forcard {
+
+    content: "";
+    margin-top: 40px;
+    display: table;
+    clear: both;
+
+
+}
+
+.recomended-foryou {
+
+    width: 158px;
+    /* height: 158px; */
+    /* left: 48px; */
+    float: left;
+    /* margin-left: 25px; */
+    top: 1292px;
+    /* border: 1px solid #E0E3EB; */
+    box-sizing: border-box;
+    margin-right: 64px;
+    border-radius: 10px;
+
+}
+
+.recenly-played-card {
+    content: "";
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+
+}
+
+.recently-play {
+    width: 158px;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 64px;
+    border-radius: 10px;
+}
+
+.recent-play-ads {
+    width: 263px;
+    height: 263px;
+    float: left;
+    margin-bottom: 58px;
+    margin-left: 20px;
+    background: #60d3f6;
+    margin-right: 20px;
+    border-radius: 10px
+}
+
+.recentplay-ads {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    margin-left: 5px;
+    line-height: 96px;
+    color: #222222;
+
+}
+
+.recently-played-song {
+    margin-top: 33px;
+
+
+}
+
+.recentads-image {
+    float: right;
+    margin-bottom: 90px;
+    margin-right: 10px;
+    width: 120px;
+    height: 110px;
+
+}
+
+.ads-info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 5px;
+    color: #222222;
+}
+
+.last-botton {
+    width: 141px;
+    height: 51px;
+    text-align: center;
+    cursor: pointer;
+    background: #F9F9F9;
+    box-shadow: -5px -5px 10px #FFFFFF, 4px 5px 10px rgba(216, 218, 225, 0.7);
+    border-radius: 8px;
+}
+
+.load-more {
+    position:absolute;
+margin-top: 14px;
+font-family: Poppins;
+font-style: normal;
+margin-left: 31px;
+margin-right: 31px;
+margin-bottom: 13px;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #3D67FF;
+}
+
+.songdew-copyright {
+    /* font-family: Poppins;
+    font-style: normal;
+    text-align: end;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170%; */
+    /* or 27px */
+    /* position: absolute; */
+    width: 173px;
+    height: 33px;
+    /* left: 46px; */
+    margin-top: 2299px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 33px;
+    /* identical to box height, or 300% */
+    color: #989AA3;
+}
+
+.bottombar-btn {
+    margin-top: 120px;
+    height: 120px;
+    position: relative;
+}
+
+.content {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #222222;
+}
+
+
+/* started dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    position: absolute;
+    scroll-behavior: smooth;
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content {
+    width: 116px;
+    overflow: unset;
+    scroll-behavior: smooth;
+    height: 150px;
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 7px rgba(181, 187, 200, 0.25);
+    border-radius: 10px;
+}
+
+.genral-dropdown-hover:hover {
+
+    color: #A8ABBB;
+
+}
+
+.songlist-info {
+
+    width: 158px;
+    height: 46px;
+    left: 48px;
+    top: 652px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #222222;
+}
+
+.songlist-info-list {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    /* or 20px */
+
+    text-align: center;
+
+    color: rgba(34, 34, 34, 0.8);
+}
+
+.songlist-small-list {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    margin-bottom: 5px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+
+    color: #989AA3;
+}
+
+.headerleftonmobile-view {
+    width: 100%;
+    display: inline;
+    display: table;
+    clear: both;
+}
+
+.headerlefticon-mobile-view {
+    width: 100%;
+    /* background-color: #3D67FF; */
+}
+
+.headericon1 {
+    float: right;
+    margin-right: 8px;
+}
+
+.textdesign {
+    text-align: center;
+
+
+}
+.textdesign_playlist{
+
+}
+
+.homepage {
+    /* margin-top: 20px; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #989AA3;
+
+
+}
+
+.album {
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+
+    color: #989AA3;
+}
+
+.songname {
+    /* position: absolute; */
+    /* width: 158px; */
+    height: 26px;
+    font-family: Poppins;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #222222;
+}
+
+.singername {
+    /* width: 158px; */
+    height: 26px;
+    /* position: absolute; */
+    /* margin-top: 26px; */
+    display: block;
+    margin-bottom: 23px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    /* or 20px */
+    /* text-align: center; */
+    color: rgba(34, 34, 34, 0.8);
+
+}
+
+.category-heading {
+    display: inline;
+}
+
+.link {
+    float: right;
+}
+
+.nav {
+    position: relative;
+    display: none;
+}
+
+.nav div a i {
+    padding: 6px;
+    color: #555;
+}
+.hrline{
+    margin-top: 14px;
+border: 1px solid #E0E3EB;
+margin-left: 48px;
+
+}
+
+.genre2
+{
+    font-family: Poppins;
+font-style: normal;
+margin-left: 17px;
+font-weight: normal;
+font-size: 12px;
+border-color: #EFF1F6;
+line-height: 18px;
+/* identical to box height */
+align-items: center;
+color: #222222;
+}
+.vertical{
+    width: 32px;
+    height: 0px;
+    margin-left: 143px;
+    border: 1px solid #E0E3EB;
+    transform: rotate(90deg);
+
+ float: right;
+
+}
+.popular{
+    float: right;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #222222;
+}
+.head-left-menu{
+    margin-top: 30px;
+}
+.btn-active{
+    background-color:  #EFF1F7;;
+}
+.song_playlist{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #222222;
+}
+
+.hrline_formobile{
+
+border: 1px solid #E0E3EB;
+}
+.mobile_view_option{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+text-align:  center;
+color: #3D67FF;
+width: 55px;
+height: 21px;
+margin-bottom: 27px;
+margin-left: 160px;
+margin-right: 160px;
+
+
+}
+/* @media only screen and (max-width:600px)
+{
+    .song-list-newrelease{
+        margin-right: 32px;
+    }
+} */
+
+.SongTag{
+    margin-top: 31px;
+    margin-left: 11px;
+}
+.drop-down{
+    left: 25%;
+margin-right: 25%;
+margin-top: 37.5%;
+margin-bottom: 37.5%;
+position: absolute;
+border: 1.5px solid #222222;
+}
